@@ -5,3 +5,11 @@ Proyecto de software para la digitalización del catálogo de productos de Nemo 
 El sistema permitirá consultar materiales de vinilo, visualizar sus características y aplicaciones, calcular un valor de referencia según la cantidad de metros requerida y preparar solicitudes de cotización mediante WhatsApp.
 
 Este proyecto hace parte del proceso académico de Ingeniería de Software y se integra con las actividades de Programación Orientada a Objetos, Metodologías y Requerimientos de Software y DevOps.
+
+## Funcionalidades principales
+
+- Consulta del catálogo de materiales.
+- Visualización del detalle de cada producto.
+- Cálculo de un valor de referencia según los metros seleccionados.
+- Preparación de solicitudes de cotización.
+- Continuación del proceso comercial mediante WhatsApp.
