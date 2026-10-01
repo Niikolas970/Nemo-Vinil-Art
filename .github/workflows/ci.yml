@@ -1,0 +1,15 @@
+name: CI basico
+on: [push]
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      # Si tu repo aun no tiene requirements.txt (por ejemplo, el repo de
+      # practica de la demo), crea uno vacio antes de subir este archivo,
+      # o borra la linea de abajo.
+      - run: pip install -r requirements.txt
+      - run: python -c "print('CI funcionando')"
